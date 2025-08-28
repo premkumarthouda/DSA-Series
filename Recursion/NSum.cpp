@@ -6,7 +6,7 @@ int sumn(int n){
         return 1;
         
     }
-    return sumn(n-1)*n;
+    return sumn(n-1)+n;
 }
 int main() {
   // write your code here...
